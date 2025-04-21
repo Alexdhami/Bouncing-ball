@@ -22,7 +22,7 @@ class Ball():
         self.rect = self.rect.move(self.velocity)
         if self.rect.bottom >= self.height:
             self.rect.bottom = self.height
-            self.velocity.y = - self.velocity.y * 0.9
+            self.velocity.y = -self.velocity.y * 0.9
             self.velocity.x = self.velocity.x * 0.99
         if self.rect.top <= 0:
             self.velocity.y = -self.velocity.y
