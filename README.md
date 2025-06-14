@@ -2,11 +2,11 @@
 
 A simple 2D physics simulation of a ball bouncing within a window using Python and Pygame. The ball reacts to gravity and collisions with walls, demonstrating basic motion and energy loss.
 
-## 🧠 Description
+##  Description
 
 This project simulates a ball affected by gravity, bouncing off the ground and walls with realistic deceleration using friction and damping.
 
-## 🎯 Features
+##  Features
 
 Smooth ball movement using Vector2
 
@@ -18,7 +18,7 @@ Horizontal friction effect on each bounce
 
 Scalable and easy to modify
 
-## 📦 Requirements
+##  Requirements
 
 Python 3.x,
 Pygame
@@ -29,7 +29,7 @@ Install using:
 pip install pygame
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 Make sure ball.png is in the same directory, then run:
 
